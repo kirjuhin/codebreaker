@@ -1,0 +1,22 @@
+.welcome-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    height: 80vh;
+    width: 65vw;
+}
+
+.welcome-screen h1 {
+    margin: 0;
+    font-size: 75px;
+}
+
+.welcome-screen h3 {
+    margin: 0;
+}
+
+.welcome-screen p {
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.game-container__horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-container__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.game-container__button {
+    display: flex;
+    justify-content: center;
+}

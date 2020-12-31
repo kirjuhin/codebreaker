@@ -1,0 +1,14 @@
+.game-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $light-gray;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.game-board__row {
+    display: flex;
+    align-items: center;
+}

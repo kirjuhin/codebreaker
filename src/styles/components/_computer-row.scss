@@ -1,0 +1,21 @@
+.computer-row {
+    border-left: 1px solid white;
+    display: flex;
+    padding: 5px 0;
+}
+
+.computer-row__color {
+    background-color: $dark-gray;
+    border-radius: 7.5px;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+}
+
+.computer-row__color--black {
+    background-color: black;
+}
+
+.computer-row__color--white {
+    background-color: white;
+}

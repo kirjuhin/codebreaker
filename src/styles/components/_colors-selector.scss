@@ -1,0 +1,29 @@
+.colors-selector__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colors-selector {
+    background-color: $light-gray;
+    border-radius: 25px;
+    display: inline-flex;
+    align-content: end;
+    padding: 10px 0;
+}
+
+.colors-selector__color {
+    border-radius: 20px;
+    background-color:$dark-gray;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.colors-selector:hover {
+    cursor: pointer;
+}
+
+.colors-selector__color--highlighted {
+    filter: opacity(60%);
+}
